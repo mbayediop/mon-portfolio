@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Oswald:wght@300&display=swap');
+
+body {
+    padding: 0 2%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    top: 0;
+    padding: 1rem;
+}
+
+nav .profile {
+    display: flex;
+    align-items: center;
+}
+nav .profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+nav .profile h1 {
+    font-size: 15px;
+    margin-left: 10px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+nav ul li:hover {
+    border-color: black;
+}
+.page-content {
+    margin-top: 7rem;
+    max-width: 50%;
+}
+.page-content h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'oswald', sans-serif;
+    font-size: 4vw;
+}
+.page-content p {
+    line-height: 30px;
+    color: gray;
+}
+.page-content .presntation-image{
+    margin-top: 3%;
+   
+}
+.page-content header .presntation-image img {
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+}
+
+/** MES COMPETENCES **/
+
+.competences-type {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+  }
+.competences h1 {
+    margin: auto;
+    text-transform: uppercase;
+    font-family: 'oswald', sans-serif;
+    font-size: 4vw;
+}
+.competences p {
+    margin: auto;
+    line-height: 30px;
+    color: gray;
+}
+.competences-type .competences-infra ul {
+    padding: 1%;
+    margin: auto;
+}
+.competences-type .competences-infra img {
+    width: 50%;
+    height: 50%;
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid;
+  }
+.competences-type .competences-dev img {
+    width: 50%;
+    height: 50%;
+    margin: 0%;
+    padding: 1%;
+    border: 1px solid;
+  }
+  .mesprojets {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  }
+
+.projets h1 {
+    margin: 0%;
+    text-transform: uppercase;
+    font-family: 'oswald', sans-serif;
+    font-size: 4vw;
+  }
+
+.projets .mesprojets p {
+    line-height: 30px;
+    color: gray;
+    width: 50%;
+    height: 50%;
+}
+
+.projets .mesprojets img {
+    align-items: center;
+    width: 15%;
+    height: 15%;
+}
+/** CV   **/
+
+.cv h1 {
+    margin: 0%;
+ text-transform: uppercase;
+ font-family: 'oswald', sans-serif;
+ font-size: 4vw;
+}
+
+.mon-cv {
+    display: flex;
+    flex-direction: inherit;
+    max-width: 960px;
+    margin: auto;
+}
+ 
+.mon-cv img {
+    width: 15%;
+    height: 15%;
+}
+
+
+.mon-cv p {
+    line-height: 30px;
+    color: gray;
+}
+
+.contact-infos .infos {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+} 
+.info{
+    margin-bottom: 1rem;
+}
+.nom1{
+    margin-left: 2rem;
+}
+.contact-infos h1 {
+margin: 0%;
+ text-transform: uppercase;
+ font-family: 'oswald', sans-serif;
+ font-size: 4vw;
+}
+
+.contact-infos .infos p {
+    width: 50%;
+    height: 40%;
+    padding: 1px;
+} 
+.contact-infos .infos img {
+    width: 20%;
+    height: 15%;
+} 
+
+.page-traitement-donnees{
+    width: 293px;
+    max-height: max-content;
+    margin: 1%;
+    text-align: end;
+    font-size: 16px;
+}
+
+.contactez-nous {
+    margin: 4%;
+    padding: 3%;
+    text-align: center;
+    width: 446px;;
+    border: 1px solid;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+ .send{
+     margin-top: 2rem;
+     padding: 1rem;
+ }
+@media screen and ( max-width: 700px){
+    nav {
+        justify-content: center;
+    }
+    nav ul {
+        display: none;
+    }
+    .page-content {
+        margin-top: 10%;
+        max-width: 100%;
+        align-items: center;
+    }
+}

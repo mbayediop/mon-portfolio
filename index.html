@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <TItle>Mon Portfolio</TItle>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="profile">
+            <img src="images/profit.jpg" alt="Photo de profile">
+            <h1>Mbaye DIOP</h1>
+        </div>
+        <ul>
+            <li><a href="#a-prpos">A propos</a></li>
+            <li><a href="#competence">Compétence</a> </li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#cv">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="page-content">
+            <h1 id="a-propos">A propos</h1>
+            <p>Master Réseaux Informatiques et Télécoms de formation, passionné de la Sécurité Informatique, des Télécoms et  du Développement. 
+                Curieux insatiable de High-Tech, la veille technologique, la positive attitude et l’auto formation continue sont mes atouts majeurs.
+            </p>
+             <img src="images/presentation.jpg" alt="Réseaux Télécom">
+    </section>
+
+    <section class="competences">
+        <h1 id="competence">Mes compétences</h1>
+        <p>Polyvalent, j'ai des compétences en :</p>
+        <div class="competences-type">
+            <div class="competences-infra">
+                <h2> Infrastructure IT</h2>
+                <img src="images/images-reseaux.png" alt="Reseaux">
+                <ul>
+                    <ol>Systèmes d'exploitation</ol>
+                    <ol> Réseaux et Services Réseaux</ol>
+                    <ol>Protocoles de Sécurité</ol>
+                    <ol>l'Automatisation des tâches sous GNU/Linux</ol>
+                    <ol>Câblage et Maintenance</ol>
+                </ul>
+            </div>
+            <div class="competences-dev">
+                <h2> Développement informatique Full-Stack</h2>
+                <img src="images/images-dev.jpg" alt="Développement">
+                <ul>
+                    <ol>HTML5/CSS3 & WordPress</ol>
+                    <ol>JavaScript</ol>
+                    <ol>PHP,Angular,C et Python</ol>
+                    <ol>Technologies Javal J2EE</ol>
+                    <ol>Node.js</ol>
+                    <ol>MySQL, Oracle 11g & 12c</ol>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="projets">
+        <h1 id="projets">Mes Projets</h1>
+        <div class="mesprojets">
+            <img src="images/images-voip.jpg" alt="voip">
+            <p>MEMOIRE DE FIN DE CYCLE POUR L’OBTENTION DE LA LICENCE PROFESSIONNELLE Sujet : ETUDE ET MISE EN PLACE D’UNE SOLUTION DE COMMUNICATION DE LA VOIX SUR IP (CAS MAINSOFT)</p>  
+        </div>  
+
+    </section>
+
+    <section class="cv">
+        <h1 id="cv">Mon CV </h1>
+        <div class="mon-cv">
+            <img src="images/images-cv.png" alt="images cv">
+            <p>cliquer sur <a href="/images/CVMbayeDiop.pdf"> CV </a> pour le telechargement de mon CV </p>
+        </div>
+    </section>
+
+    <section class="contact">
+    <div class="contact-infos">
+        <h1 id="contact">Nous contacter</h1>
+        <p>Si vous avez besoin de plus d'informations n'hésitez pas à me contacter par email ou par téléphone</p>
+        <div class="infos">
+            <div class="numero-telepone">
+                <p>Numero de Telephone : +221 77 501 97 00 </p>
+                <img src="images/images-telephone.png" alt="Numero de Telephone">  
+            </div> 
+            <div class="mail">
+                <p>MAIL : mbayediop@gmail.com</p>
+                <img src="images/images-mail.png" alt="mail">
+            </div>
+        </div>
+        <div class="contactez-nous">
+            
+            <form action="page-traitement-donnees" method="post">
+                <div class="info">
+                    <label for="nom">Votre nom</label>
+                    <input class="nom1" type="text" id="nom" name="nom" placeholder="Exemple: Modou" required>
+                </div>
+                <div class="info">
+                    <label for="email">Votre e-mail</label>
+                    <input class="nom1" type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+                </div>
+                <div class="info">
+                    <label for="message">Votre message</label>
+                    <textarea class="nom1" id="message" name="message" placeholder="Bonjour, je vous contacte car...." required></textarea>
+                </div>
+                <div>
+                    <button class="send" type="submit">Envoyer mon message</button>
+                </div>
+            </form>
+            </div>
+    </div>
+    </section>
+
+
+</body>
+</html>
